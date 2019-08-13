@@ -1,5 +1,6 @@
 class Book
     include RecommendedBooks
+    include Lendable
 
     attr_reader :title, :author
     attr_writer :finished
